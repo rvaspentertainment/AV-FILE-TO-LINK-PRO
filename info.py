@@ -22,8 +22,8 @@ ADMINS = list(map(int, environ.get('ADMINS', '591732965').split()))  # List of a
 AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002102037760 -1002012150170").split()))  # Allowed channels for authorization
 
 # username add without @
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26')  # Owner's username
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT')  # Bot's username
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'PP_down_bot')  # Owner's username
+BOT_USERNAME = environ.get("BOT_USERNAME", 'PP_down_bot')  # Bot's username
 
 # 🔗 Channel & Support Links
 CHANNEL = environ.get('CHANNEL', 'https://t.me/AV_BOTz_UPDATE')  # Updates channel
@@ -87,7 +87,7 @@ PORT = int(getenv('PORT', '2626'))  # Port for web server
 NO_PORT = str(getenv("NO_PORT", False)).lower() in ("true", "1", "yes")  # Disable port in URL
 HAS_SSL = str(getenv("HAS_SSL", False)).lower() in ("true", "1", "yes")  # Use HTTPS if True
 BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")  # Server bind address
-FQDN = getenv("FQDN", "") or BIND_ADDRESS  # Full domain name or fallback to bind address
+FQDN = getenv("FQDN", "running-aime-file-get-81528fdc.koyeb.app/") or BIND_ADDRESS  # Full domain name or fallback to bind address
 PORT_SEGMENT = "" if NO_PORT else f":{PORT}/"  # Port in URL if not disabled
 PROTOCOL = "https" if HAS_SSL else "http"  # Protocol for URL
 URL = f"{PROTOCOL}://{FQDN}{PORT_SEGMENT}"  # Final generated base URL
