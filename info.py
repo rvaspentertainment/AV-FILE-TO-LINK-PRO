@@ -18,7 +18,7 @@ VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002227216574'))  # Verified us
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002028053413"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
-ADMINS = list(map(int, environ.get('ADMINS', '5977931010').split()))  # List of admin user IDs
+ADMINS = list(map(int, environ.get('ADMINS', '591732965').split()))  # List of admin user IDs
 AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002102037760 -1002012150170").split()))  # Allowed channels for authorization
 
 # username add without @
@@ -33,13 +33,13 @@ HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/')  # File access guide l
 
 # ✅ Feature Toggles (True/False)
 VERIFY = environ.get("VERIFY", False)  # Enable user verification
-FSUB = environ.get("FSUB", True)  # Force Subscribe feature
-ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)  # Enable file limits
+FSUB = environ.get("FSUB", False  # Force Subscribe feature
+ENABLE_LIMIT = environ.get("ENABLE_LIMIT", FalseF  # Enable file limits
 BATCH_VERIFY = environ.get("BATCH_VERIFY", False)  # Verify files in batch
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # Enable channel shortlink creation
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)  # Put bot in maintenance
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)  # Enable content protection
-PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)  # Public or private file visibility
+PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', FalseF  # Public or private file visibility
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)  # Batch file protection
 
 # 🔗 Shortlink Configuration
