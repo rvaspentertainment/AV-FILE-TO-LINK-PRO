@@ -90,4 +90,4 @@ BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")  # Server bind add
 FQDN = getenv("FQDN", "running-aime-file-get-81528fdc.koyeb.app/") or BIND_ADDRESS  # Full domain name or fallback to bind address
 PORT_SEGMENT = "" if NO_PORT else f":{PORT}/"  # Port in URL if not disabled
 PROTOCOL = "https" if HAS_SSL else "http"  # Protocol for URL
-URL = f"{PROTOCOL}://{FQDN}{PORT_SEGMENT}"  # Final generated base URL
+URL = f"{PROTOCOL}://{FQDN}"  # Final generated base URL
