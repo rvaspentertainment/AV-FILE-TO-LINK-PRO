@@ -39,7 +39,7 @@ BATCH_VERIFY = environ.get("BATCH_VERIFY", False)  # Verify files in batch
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # Enable channel shortlink creation
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)  # Put bot in maintenance
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)  # Enable content protection
-PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', FalseF  # Public or private file visibility
+PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', False)  # Public or private file visibility
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)  # Batch file protection
 
 # 🔗 Shortlink Configuration
