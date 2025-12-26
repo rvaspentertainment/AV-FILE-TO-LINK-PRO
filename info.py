@@ -33,8 +33,8 @@ HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/')  # File access guide l
 
 # ✅ Feature Toggles (True/False)
 VERIFY = environ.get("VERIFY", False)  # Enable user verification
-FSUB = environ.get("FSUB", False  # Force Subscribe feature
-ENABLE_LIMIT = environ.get("ENABLE_LIMIT", FalseF  # Enable file limits
+FSUB = environ.get("FSUB", False)  # Force Subscribe feature
+ENABLE_LIMIT = environ.get("ENABLE_LIMIT", False)  # Enable file limits
 BATCH_VERIFY = environ.get("BATCH_VERIFY", False)  # Verify files in batch
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # Enable channel shortlink creation
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)  # Put bot in maintenance
